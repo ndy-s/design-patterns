@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example.singleton.database;
 
 /**
  * Helper class to manage and abstract the connection logic.

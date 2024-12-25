@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example.singleton.database;
 
 /**
  * Main application to demonstrate the Singleton pattern in action.
@@ -13,9 +13,9 @@ public class SingletonApp {
         // Service to manage order details.
         OrderDetailService orderDetailService = new OrderDetailService();
         // Save order details using the same shared connection.
-        orderDetailService.save("0001", "IndoMie");
-        orderDetailService.save("0001", "Sabun");
-        orderDetailService.save("0001", "Pepsodent");
+        orderDetailService.save("0001", "Noodles");
+        orderDetailService.save("0001", "Soap");
+        orderDetailService.save("0001", "Tooth Paste");
 
         // All operations above use the same connection instance.
     }

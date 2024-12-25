@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example.singleton.database;
 
 /**
  * Service class to manage orders in the system.

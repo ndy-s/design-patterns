@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example.singleton.database;
 
 /**
  * Singleton class to manage a single instance of a database connection.
