@@ -1,4 +1,4 @@
-package org.example.momento;
+package org.example.momento.editor;
 
 public class MomentoApp {
     public static void main(String[] args) {

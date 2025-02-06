@@ -1,4 +1,4 @@
-package org.example.momento;
+package org.example.momento.editor;
 
 // Originator
 public class Editor {

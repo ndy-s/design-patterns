@@ -1,4 +1,4 @@
-package org.example.momento;
+package org.example.momento.editor;
 
 // Momento
 public class EditorState {

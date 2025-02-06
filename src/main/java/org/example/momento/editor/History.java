@@ -1,4 +1,4 @@
-package org.example.momento;
+package org.example.momento.editor;
 
 import java.util.Stack;
 
@@ -13,7 +13,7 @@ public class History {
     }
 
     public EditorState undo() {
-        if (undoStack.size() > 1) {
+        if (!undoStack.isEmpty()) {
             redoStack.push(undoStack.pop());
             return undoStack.peek();
         }
